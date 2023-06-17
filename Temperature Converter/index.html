@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter | Krantikumar Mathapati</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="wrapper">
+            <h2>Temperature Converter</h2>
+
+            <div class="form">
+                <div class="row">
+                    <div class="left">
+                        <p class="label">Degree</p>
+                        <input type="number" placeholder="0" id="degree" class="input ibox" required>
+                    </div>
+
+                    <div class="right">
+                        <p class="label">Type</p>
+                        <select id="type" class="select ibox">
+                            <option value="Celsius">Celsius</option>
+                            <option value="Fahrenheit">Fahrenheit</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="center">
+                    <p class="label">Result</p>
+                    <h1 id="result">00&#176; F</h1>
+                </div>
+
+                
+                <div class="btn">
+                    <button id="btn">Convert</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="copyright">Developed by KRANTIKUMAR MATHAPATI</p>
+
+    
+
+<!-- custom js -->
+<script src="main.js"></script>
+</body>
+</html>
