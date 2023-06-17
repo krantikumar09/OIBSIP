@@ -1,0 +1,430 @@
+
+
+
+
+
+@media only screen and (max-width: 1140px) {
+    .container {
+        max-width: 940px;
+    }
+}
+
+
+@media only screen and (max-width: 1025px) {
+    
+    .sub_logo span {
+        font-size: 16.5px;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    .hero_heading {
+        font-size: 56.64px;
+    }
+
+    .hero_desc {
+        font-size: 20.76px;
+    }
+
+    .sec_heading {
+        font-size: 37.76px;
+    }
+
+    .name {
+        font-size: 34px;
+    }
+
+    .about_sub_sec {
+        font-size: 26.43px;
+        line-height: 33px;
+    }
+
+    .desc {
+        font-size: 16.89px;
+        line-height: 28px;
+    }
+
+    .skill_item {
+        font-size: 16.6px;
+    }
+
+    form {
+        max-width: 70%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .sub_logo span {
+        font-size: 16px;
+    }
+
+    nav ul li {
+        margin-left: 3.4rem;
+    }
+
+    nav ul li a {
+        font-size: 14.5px;
+    }
+
+    .hero_heading {
+        font-size: 53.76px;
+    }
+
+    .hero_desc {
+        font-size: 20.76px;
+    }
+
+    .sec_heading {
+        font-size: 35.84px;
+    }
+
+    .name {
+        font-size: 32px;
+    }
+
+    .about_sub_sec {
+        font-size: 25.08px;
+        line-height: 31px;
+    }
+
+    .desc {
+        font-size: 16.12px;
+        line-height: 28px;
+    }
+
+    .skill_item {
+        font-size: 14.33px;
+    }
+
+    form {
+        max-width: 74%;
+    }
+
+    .about_content {
+        width: 60%;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 769px) {
+    
+    .sub_logo span {
+        font-size: 16px;
+    }
+
+    nav ul li {
+        margin-left: 2.8rem;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .about_content {
+        width: 70%;
+    }
+
+    form {
+        max-width: 80%;
+    }
+
+    .hero_img {
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+
+    .sec-padding {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .logo_img {
+        width: 46px;
+    }
+
+    .sub_logo span {
+        font-size: 15.6px;
+    }
+
+    nav {
+        position: absolute;
+        top: -260px;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        overflow: hidden;
+        transition: top .6s;
+        -webkit-transition: top .6s;
+        -moz-transition: top .6s;
+        -ms-transition: top .6s;
+        -o-transition: top .6s;
+        z-index: -1;
+}
+
+    nav ul {
+        flex-direction: column;
+        padding: 0 16px;
+    }
+
+    nav ul li {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        text-align: right;
+    }
+
+    nav ul li a {
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        display: block;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    nav ul li a::after {
+        display: none;
+    }
+
+    .nav_menu {
+        display: block;
+    }
+
+    .hero_heading {
+        font-size: 51px;   
+        line-height: 66px;
+    }
+
+    .hero_content {
+        margin-top: 8%;
+    }
+
+    .sec_heading {
+        font-size: 32.6px;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .about_sub_sec {
+        font-size: 23.4px;
+        line-height: 28px;
+    }
+
+    .pri-btn {
+        font-size: .7rem 2.4rem;
+    }
+
+    .project_name {
+        font-size: 22px;
+        margin-bottom: 9px;
+    }
+
+    .about_content {
+        width: 76%;
+    }
+
+    form {
+        max-width: 85%;
+        padding: 55px 35px;
+    }
+
+    .hero_img {
+        width: 170px;
+    }
+}
+
+
+@media only screen and (max-width: 516px) {
+    .hero_content {
+        margin-top: 12%;
+    }
+
+    .hero_heading {
+        font-size: 48px;
+        line-height: 62px;
+    }
+
+    .sec_heading {
+        font-size: 31.6px;
+    }
+
+    .name {
+        font-size: 28px;
+    }
+
+    .about_content {
+        width: 86%;
+    }
+
+    .project_name {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    form {
+        max-width: 94%;
+        padding: 50px 30px;
+    }
+
+    .footer_inner {
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+
+    .footer_right {
+        text-align: start;
+    }
+
+    .hero_img {
+        width: 165px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 513px) {
+    .hero_content {
+        margin-top: 14%;
+    }
+
+    .hero_heading {
+        font-size: 44px;
+        line-height: 58px;
+    }
+
+    .sec_heading {
+        font-size: 30px;
+    }
+
+    .about_content {
+        width: 100%;
+    }
+
+    .project_name {
+        font-size: 21px;
+        margin-bottom: 8px;
+    }
+
+    form {
+        max-width: 100%;
+    }
+
+    .footer_inner {
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+
+    .footer_right {
+        text-align: start;
+    }
+
+}
+
+
+@media only screen and (max-width: 426px) {
+
+    .sec-padding {
+        padding-top: 56px;
+        padding-bottom: 56px;
+    }
+    
+    .hero_content {
+        margin-top: 18%;
+    }
+
+    .hero_desc {
+        font-size: 19px;
+    }
+
+    .hero_heading {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .sec_heading {
+        font-size: 28px;
+    }
+
+    .sec_heading::after {
+        width: 26px;
+        height: 4px;
+    }
+
+    .project_name {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .project_content .desc {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .pri_btn {
+        font-size: 16px;
+    }
+
+    .copyright {
+        font-size: 14px;
+    }
+
+    .pri_btn {
+        padding: .7rem 2.2rem;
+    }
+
+    .hero_img {
+        width: 160px;
+    }
+
+    form {
+        padding: 45px 25px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    
+    .hero_content {
+        margin-top: 20%;
+    }
+
+    .hero_desc {
+        font-size: 18px;
+    }
+
+    .hero_heading {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .footer_subtitle {
+        font-size: 20px;
+    }
+
+    .footer_desc {
+        font-size: 15px;
+    }
+
+    .hero_img {
+        width: 150px;
+    }
+
+    form {
+        padding: 40px 20px;
+    }
+}

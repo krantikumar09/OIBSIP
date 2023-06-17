@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krantikumar Mathapati | Fronted Developer</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/respnsive.css">
+
+    <!-- link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header_inner flex">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/man.png" class="logo_img" alt="logo">
+                        <div class="sub_logo">
+                            <span>Krantikumar mathapati</span>
+                        </div>
+                    </a>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#home">home</a>
+                        </li>
+                        <li>
+                            <a href="#about">about</a>
+                        </li>
+                        <li>
+                            <a href="#project">project</a>
+                        </li>
+                        <li>
+                            <a href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="nav_menu">
+                    <i class="bi bi-list-nested"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero_inner flex">
+                    <div class="hero_content">
+                        <!-- <h3 class="hero_subheading">HI, I'M KRANTIKUMAR MATHAPATI</h3> -->
+                        <h1 class="hero_heading">fronted developer</h1>
+                        <p class="hero_desc">"Crafting digital experiences that inspire and empower online presence."</p>
+                        <img src="images/man.png" class="hero_img" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- about -->
+        <section class="about sec-padding" id="about">
+            <div class="container">
+                <div class="about_inner">
+                    <h2 class="sec_heading">about us</h2>
+                    <h2 class="name">hi, i'm krantikumar. nice to meet you.</h2>
+
+                    <div class="about_content">
+                        <div class="about_left">
+                            <h3 class="about_sub_sec">Get to Know me!</h3>
+                            <p class="desc">I’m a Fronted Web Developer building the Front-end of websites and Web Applications that leads to the sucess of the overall product. Check out some of my work in the Projects sections.</p>
+                            <a href="#contact" class="pri_btn">contact</a>
+                        </div>
+
+                        <div class="about_right">
+                            <h3 class="about_sub_sec">Skills</h3>
+                            <div class="skill_box">
+                                <span class="skill_item">HTML</span>
+                                <span class="skill_item">CSS</span>
+                                <span class="skill_item">JavaScript</span>
+                                <span class="skill_item">SASS</span>
+                                <span class="skill_item">React</span>
+                                <span class="skill_item">Responsive Design</span>
+                                <span class="skill_item">GIT</span>
+                                <span class="skill_item">Github</span>
+                                <span class="skill_item">Node.js</span>
+                                <span class="skill_item">Angular.js</span>
+                                <span class="skill_item">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- projects -->
+        <section class="projects sec-padding" id="project">
+            <div class="container">
+                <div class="project_inner">
+                    <h2 class="sec_heading">Projects</h2>
+
+                    <div class="project_container">
+                        <div class="project_box">
+                            <img src="images/todo app.jpg" alt="">
+                            <div class="project_content">
+                                <h4 class="project_name">To Do Web app</h4>
+                                <p class="desc">Discover our dark-themed task management website, where users can easily add and organize their tasks. With a sleek interface, customization options, and mobile optimization, stay productive and focused with our user-friendly platform.</p>
+                                <a href="https://krantikumar09.github.io/todoapp/" target="_parent" class="pri_btn">View Project</a>
+                            </div>
+                        </div>
+
+                        <div class="project_box">
+                            <img src="images/social.jpg" alt="">
+                            <div class="project_content">
+                                <h4 class="project_name">Social Media dashboard</h4>
+                                <p class="desc">social media management with our user-friendly Social Media Dashboard Website. Schedule posts, analyze data, engage with followers, and collaborate seamlessly. Elevate your social media strategy today.</p>
+                                <a href="https://krantikumar09.github.io/social-media-dashboard/" target="_parent" class="pri_btn">View Project</a>
+                            </div>
+                        </div>
+
+                        <div class="project_box">
+                            <img src="images/organick.jpg" alt="">
+                            <div class="project_content">
+                                <h4 class="project_name">E-commerce website</h4>
+                                <p class="desc">Experience our responsive e-commerce website featuring organic fruits and vegetables. With a user-friendly interface, secure checkout, and captivating visuals, enjoy a seamless shopping experience.</p>
+                                <a href="https://krantikumar09.github.io/organick/" target="_parent" class="pri_btn">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- contact -->
+        <section class="contact sec-padding" id="contact">
+            <div class="container">
+                <h2 class="sec_heading">Contact</h2>
+                <div class="contact_inner">
+                    <form onsubmit="sendEmail();  return false;">
+                        <div class="input_box">
+                            <label for="name">Name</label>
+                            <input type="text" class="input" placeholder="Enter Your Name" id="name" onkeyup="validateName()">
+                            <span class="error name-error"></span>
+                        </div>
+
+                        <div class="input_box">
+                            <label for="email">Email</label>
+                            <input type="text" class="input" placeholder="Enter Your Email" id="email" onkeyup="validateEmail()">
+                            <span class="error email-error"></span>
+                        </div>
+
+                        <div class="input_box">
+                            <label for="msg">Message</label>
+                            <textarea name="message" class="input textarea" placeholder="Enter Your Message" id="msg" cols="30" rows="10" onkeyup="validateMsg()"></textarea>
+                            <span class="error msg-error"></span>
+                        </div>
+
+                        <div class="send_btn">
+                            <button class="pri_btn" type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer_inner flex">
+                <div class="footer_left">
+                    <h3 class="footer_subtitle">krantikumar mathapati</h3>
+                    <p class="footer_desc">"Crafting digital experiences that<br> inspire and empower online presence."</p>
+                </div>
+
+                <div class="footer_right">
+                    <h3 class="footer_subtitle">social</h3>
+                    <div class="social_icons flex">
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="https://github.com/krantikumar09"><i class="bi bi-github"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <hr>
+
+            <p class="copyright">Designed & Developed by KRANTIKUMAR MATHAPATI</p>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
+    
+    <!-- onclick="return validateForm()" -->
+</body>
+</html>
